@@ -1,0 +1,19 @@
+# Personal plans and annotations: any folder named "notes", at any level, stays on this
+# machine only.
+**/notes
+
+# Secrets: once a secret is in a commit it stays in the history even after deletion.
+**/.env
+**/.env.*
+
+# Recorded evidence never goes to the public repository: exported packages and media.
+exports/
+*.zip
+*.wav
+*.webm
+*.mp4
+*.m4a
+
+# Build output and dependencies
+node_modules/
+dist/
